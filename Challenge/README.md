@@ -13,10 +13,10 @@ This project's objective is to code macros that help analyze the stock reports f
 ## Results
 
 #### Advantages/Disadvantages of refactoring code in general
-    - Advantages
-      - improve performance and efficiency.  Also, refactoring can increase the capacity to process varying amounts of data based on the structure of the code.  By including more arrays to hold the calculations as we make them, we can store them and call on them later in the program.  And by inserting new variables such as indexnumber we can better access and update arrays of calculations more efficiently.
-    - Disadvantages
-      - spend more time completing a project and maybe not even improving the program all that much.  Depends on the data base size, number of calculations, and whether it's even very important to the final result.
+    Advantages
+      Improve performance and efficiency.  Also, refactoring can increase the capacity to process varying amounts of data based on the structure of the code.  By including more arrays to hold the calculations as we make them, we can store them and call on them later in the program.  And by inserting new variables such as indexnumber we can better access and update arrays of calculations more efficiently.
+    Disadvantages
+      Spend more time completing a project and maybe not even improving the program all that much.  Depends on the data base size, number of calculations, and whether it's even very important to the final result.
 
 #### Pros and cons of refactoring our VBA script for Steve
   The results of our refactored code were of a major improvement in performance and speed.  The main difference in functionality between the original code and refactored code is the first uses nested for loops to perform the calculations and outputs all the way through, and in the refactored code, by creating 3 new arrays and a tickerIndex, we can store the calculations in arrays by using 3 separate For loops to accomplish the same results. One for loop to set all elements of tickerVolumes array to 0, one main loop to gather and store the info into our arrays, and a third to call the stored information to output.  In doing this, the refactored code ran 4.8x faster on average than the original code.  By using a tickerIndex, we can manage the elements of each array and call them specifically and accordingly.  Also, the upper limit of the tickerIndex is only limited by running out of tickers in the loop (bottom of data table) and therefore easily extendable to the arrays, increasing the number of elements as the number of tickers increase.  Of course, we would have to update this in the array declarations as a variable amount of elements based on something such as input or updating the code as the data grows.
