@@ -12,7 +12,7 @@ This project's objective is to code macros that help analyze the stock reports f
 
 ## Results
 
-#### Advantages/Disadvantages of refactoring code in general
+#### Advantages&Disadvantages of refactoring code in general
     - Advantages - improve performance and efficiency.  Also, refactoring can increase the capacity to process varying amounts of data based on the structure of the code.  By including more arrays to hold the calculations as we make them, we can store them and call on them later in the program.  And by inserting new variables such as indexnumber we can better access and update arrays of calculations more efficiently.
     - Disadvantages - spend more time completing a project and maybe not even improving the program all that much.  Depends on the data base size, number of calculations, and whether it's even very important to the final result.
 
