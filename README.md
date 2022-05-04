@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project's objective is to code macros that help analyze the stock reports for all stocks provided and return results to our client, Steve. It is also necessary to refactor the original code so that it will run faster and better accommodate larger sets of data.  Both the original, and the refactored code is included in the Excel document modules.
+Client, Steve, is a recent finance graduate and looking to consult with his first client. He asked us to help him analyze the stock reports for 2017 & 2018 to help him understand better how all stocks are performing. For this project, we are writing VBA macros to calculate Total Volume and Returns.  Then, the original code is refactored so that it will run faster and better accommodate larger sets of data.  Both the original, and the refactored code is included in the Excel document modules.
 
 ## Summary
 
