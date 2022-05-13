@@ -34,6 +34,8 @@ Client, Steve, is a recent finance graduate and looking to consult with his firs
 
 ![Code_refactored](https://user-images.githubusercontent.com/100544761/160899766-1b7070ba-0b89-4e1f-8541-6bcfc2a2d988.png) --Refactored Code segment--
 
+### Contact
 
+Email:  mrmileyy@gmail.com
 
 
